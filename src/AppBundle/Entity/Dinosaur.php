@@ -53,6 +53,38 @@ class Dinosaur
     }
 
     /**
+     * @return mixed
+     */
+    public function getGenus()
+    {
+        return $this->genus;
+    }
+
+    /**
+     * @param mixed $genus
+     */
+    public function setGenus($genus)
+    {
+        $this->genus = $genus;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getisCarnivorous()
+    {
+        return $this->isCarnivorous;
+    }
+
+    /**
+     * @param mixed $isCarnivorous
+     */
+    public function setIsCarnivorous($isCarnivorous)
+    {
+        $this->isCarnivorous = $isCarnivorous;
+    }
+
+    /**
      * @return string
      */
     public function getSpecification(): string
