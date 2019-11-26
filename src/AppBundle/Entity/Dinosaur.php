@@ -30,6 +30,11 @@ class Dinosaur
     private $isCarnivorous;
 
     /**
+     * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Enclosure", inversedBy="dinosaurs")
+     */
+    private $enclosure;
+
+    /**
      * Dinosaur constructor.
      * @param string $genus
      * @param bool $isCarnivorous
