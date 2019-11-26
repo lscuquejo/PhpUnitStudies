@@ -19,4 +19,9 @@ class DinosaurFactory
 
         return $dinosaur;
     }
+
+    public function growFromSpecification(string $specification): Dinosaur
+    {
+
+    }
 }
