@@ -31,8 +31,6 @@ class DinosaurFactory
         $length = $this->dinosaurLengthDeterminator->getLengthFromSpecification($specification);
         $isCarnivorous = false;
 
-
-
         if (stripos($specification, 'carnivorous') !== false){
             $isCarnivorous = true;
         }
